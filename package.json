@@ -1,5 +1,5 @@
 {
-  "homepage": "https://anilkumar9854.github.io/ReactTreeTable",
+  "homepage": "https://anilkumar9854.github.io/anilkumar9854.github.io",
   "dependencies": {
     "react-dom": "latest",
     "react": "^16.14.0",
@@ -20,6 +20,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   }
 }
